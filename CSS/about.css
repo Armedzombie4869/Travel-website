@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+    padding-bottom:30px;
+    background: #263238;
+    color:white;
+}
+.navbar{
+    width:59vw;
+    margin:0 auto;
+  
+}
+
+
+.nav-items{
+    float:right;
+    list-style-type:none;
+    margin-top: 20px;
+}
+
+.nav-item{
+    display:inline;
+    margin-right:5px;
+ 
+}
+
+.nav-item a{
+    text-decoration: none;
+    color:white;
+
+}
+
+.nav-item a:hover{
+    border-bottom:1px solid white;
+}
+
+
+.logo{
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color:white;
+    font-weight: 700;
+    font-size:larger;
+}
+
+/* ##################### About section ###################*/
+
+
+.about{
+   
+    width:60%;
+    margin:35px auto;
+}
+
+.about h1{
+    border-bottom:4px solid red;
+}
+
+.list{
+  
+    display:inline-block;
+    padding:10px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.list{
+    margin:10px 100px;
+}
+
+.checks li:before {
+    content: '✓ '; 
+    color:red;
+   }
+
+
+.item-count{
+ 
+    width:70%;
+    margin:0 auto;
+}
+
+.count-item{
+  
+    display:inline-block;
+    text-align: center;
+    margin:20px 50px;
+
+}
+.count-item span{
+    color:red;
+    font-weight: 700;
+}
+
+.footer{
+    background:linear-gradient(25deg,#d64c7f,#ee4758 50%);
+    margin:0 auto;
+    padding:20px;
+    color:white;
+}
+
+.banner-left{
+    display: inline-block;
+}
+
+.banner-right{
+    margin-left:220px;
+    display: inline-block;
+    border:2px solid white;
+    padding:10px;
+}
+
+
+
+.banner-right a{
+    text-decoration: none;
+    font-weight:700;
+    color:white;
+    letter-spacing: 5px;
+    padding: 45px;
+}

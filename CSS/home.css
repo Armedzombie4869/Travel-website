@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+    height: 95vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url('../img/header-image.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;
+}
+.navbar{
+    width:59vw;
+    margin:0 auto;
+  
+}
+
+
+.nav-items{
+    float:right;
+    list-style-type:none;
+    margin-top: 20px;
+}
+
+.nav-item{
+    display:inline;
+    margin-right:5px;
+ 
+}
+
+.nav-item a{
+    text-decoration: none;
+    color:white;
+
+}
+
+.nav-item a:hover{
+    border-bottom:1px solid white;
+}
+
+
+.logo{
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color:white;
+    font-weight: 700;
+    font-size:larger;
+}
+
+.header-content{
+    text-align:center;
+    padding:200px;
+}
+
+.explore{
+    padding:10px 20px;
+    border-radius: 16px;
+    background:white;
+
+   
+}
+
+.explore a{
+     text-decoration:none;
+    color:red;
+}
+
+/* ############################### Section 2 styling #######################*/
+.showcase{
+    
+    background:#ddd;
+    padding:5rem;
+}
+
+.row{
+   
+    height:265px;
+    width:70%;
+    margin:0 auto;
+}
+.row img{
+    width:50%;
+    height:260px;
+}
+.text{
+    width:50%;
+    padding:20px;
+    background:white;
+}
+.text p{
+    margin-top:20px;
+}
+
+.text1,.img2{
+   
+    float:right;
+}
+
+.text2,.img1{
+    
+    float:left;
+}
+
+.row1{
+    margin-bottom:5rem;
+}
+
+.more{
+    background:white;
+    border:2px solid red;
+    color:red;
+    border-radius:12px;
+    padding:7px 23px;
+    margin:20px 0;
+}
+/* ############################### Section 3 styling ######################*/
+.section3{
+    padding:5rem 0;
+   
+
+}
+
+
+.box-wrapper{
+    text-align: center;
+}
+
+
+.box{
+    color:white;
+    width:25%;
+    padding:20px;
+    text-align: center;
+    display:inline-block;
+}
+
+.box1,.box3{
+    background:#263238;
+    
+}
+
+.box2{
+    background:linear-gradient(25deg,#d64c7f,#ee4758 50%);
+}
+/* ############################### Footer styling #########################*/
+
+
+.footer{
+    background-color:#263238;
+    color:white;
+    padding:20px;
+    text-align: center;
+}
+
+
+.social i{
+    margin:10px;
+}
